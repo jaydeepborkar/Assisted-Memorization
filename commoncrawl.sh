@@ -1,0 +1,3 @@
+wget "https://data.commoncrawl.org/crawl-data/CC-MAIN-2024-10/segments/1707947473472.21/wet/CC-MAIN-20240221102433-20240221132433-00347.warc.wet.gz"
+gzip -d CC-MAIN-20240221102433-20240221132433-00347.warc.wet.gz
+mv CC-MAIN-20240221102433-20240221132433-00347.warc.wet crawl.warc.wet
