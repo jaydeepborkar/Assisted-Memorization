@@ -28,7 +28,7 @@ To train a model and checkpoint it every 10% of training, run:
  First, you will need to download a slice of Common Crawl that we will use to prompt our models. You can do this using ```./commoncrawl.sh```. This will download a WET file ```crawl.wet``` from the December 2024 crawl for you. You can also use the crawl of [your choice](https://commoncrawl.org/get-started). 
 
  To generate samples, run:  
- ```python extract.py --wet_file crawl.wet --batch_size 100 --num_samples 25000 --max_langth 256```  
+ ```python extract.py --wet_file crawl.wet --batch_size 100 --num_samples 25000 --max_length 256```  
  
  You can adjust ```batch_size``` according to your compute. This will save your generations in a txt file. 
 
