@@ -102,7 +102,7 @@ def main():
     
     args = parser.parse_args()
     
-    generate_with_gpt2(
+    generate_samples(
         wet_file_path=args.wet_file,
         batch_size=args.batch_size,
         num_samples=args.num_samples,
