@@ -7,7 +7,7 @@ from transformers import AutoModelForCausalLM
 from tqdm import tqdm
 import os
 
-random.seed(42)
+random.seed(42) #set seed if needed 
 torch.manual_seed(42)
 
 
