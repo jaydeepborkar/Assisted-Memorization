@@ -1,7 +1,8 @@
 This repository contains code to reproduce results from our paper: 
 
 **Privacy Ripple Effects from Adding or Removing Personal Information in Language Model Training**  
-Jaydeep Borkar, Matthew Jagielski, Katherine Lee, Niloofar Mireshghallah, David A. Smith, and Christopher A. Choquette-Choo
+Jaydeep Borkar, Matthew Jagielski, Katherine Lee, Niloofar Mireshghallah, David A. Smith, and Christopher A. Choquette-Choo  
+https://arxiv.org/abs/2502.15680 
 
 ## Software
 - Required for training and inference: transformers, datasets, accelerate, torch, and tqdm. We use transformers v4.44.0, datasets v2.14.7, accelerate v0.29.2, torch v2.2.2, and python v3.9.12.
