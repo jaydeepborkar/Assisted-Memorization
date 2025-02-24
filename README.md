@@ -49,4 +49,17 @@ To train a model and checkpoint it every 10% of training, run:
  For the Retraining Setup, run:  
  ```
  python pii_add.py
-``` 
+```
+
+## Citation  
+```
+@misc{borkar2025privacyrippleeffectsadding,
+      title={Privacy Ripple Effects from Adding or Removing Personal Information in Language Model Training}, 
+      author={Jaydeep Borkar and Matthew Jagielski and Katherine Lee and Niloofar Mireshghallah and David A. Smith and Christopher A. Choquette-Choo},
+      year={2025},
+      eprint={2502.15680},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.15680}, 
+}
+```
