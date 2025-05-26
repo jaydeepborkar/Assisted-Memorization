@@ -2,6 +2,7 @@ This repository contains code to reproduce results from our paper:
 
 **Privacy Ripple Effects from Adding or Removing Personal Information in Language Model Training**  
 Jaydeep Borkar, Matthew Jagielski, Katherine Lee, Niloofar Mireshghallah, David A. Smith, and Christopher A. Choquette-Choo  
+In Findings of the Association for Computational Linguistics (ACL) 2025
 https://arxiv.org/abs/2502.15680 
 
 ## Software
