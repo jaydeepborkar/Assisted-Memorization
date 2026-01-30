@@ -55,27 +55,13 @@ To train a model and checkpoint it every 10% of training, run:
 
 ## Citation  
 ```
-@inproceedings{borkar-etal-2025-privacy,
-    title = "Privacy Ripple Effects from Adding or Removing Personal Information in Language Model Training",
-    author = "Borkar, Jaydeep  and
-      Jagielski, Matthew  and
-      Lee, Katherine  and
-      Mireshghallah, Niloofar  and
-      Smith, David A.  and
-      Choquette-Choo, Christopher A.",
-    editor = "Che, Wanxiang  and
-      Nabende, Joyce  and
-      Shutova, Ekaterina  and
-      Pilehvar, Mohammad Taher",
-    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
-    month = jul,
-    year = "2025",
-    address = "Vienna, Austria",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2025.findings-acl.959/",
-    doi = "10.18653/v1/2025.findings-acl.959",
-    pages = "18703--18726",
-    ISBN = "979-8-89176-256-5",
-    abstract = "Due to the sensitive nature of personally identifiable information (PII), its owners may have the authority to control its inclusion or request its removal from large-language model (LLM) training. Beyond this, PII may be added or removed from training datasets due to evolving dataset curation techniques, because they were newly scraped for retraining, or because they were included in a new downstream fine-tuning stage. We find that the amount and ease of PII memorization is a dynamic property of a model that evolves throughout training pipelines and depends on commonly altered design choices. We characterize three such novel phenomena: (1) similar-appearing PII seen later in training can elicit memorization of earlier-seen sequences in what we call assisted memorization, and this is a significant factor (in our settings, up to 1/3); (2) adding PII can increase memorization of other PII; and (3) removing PII can lead to other PII being memorized."
+@misc{borkar2025privacyrippleeffectsadding,
+      title={Privacy Ripple Effects from Adding or Removing Personal Information in Language Model Training}, 
+      author={Jaydeep Borkar and Matthew Jagielski and Katherine Lee and Niloofar Mireshghallah and David A. Smith and Christopher A. Choquette-Choo},
+      year={2025},
+      eprint={2502.15680},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.15680}, 
 }
 ```
